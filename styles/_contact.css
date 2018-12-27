@@ -1,0 +1,63 @@
+
+
+
+.contact__card {
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	width: 600px;
+	min-height: 400px;
+	border-radius: 15px;
+}
+
+.contact__top {
+	display: flex;
+}
+
+.contact__portrait {
+	/*float: left;*/
+	margin: 20px 60px 20px 20px; 
+	width: 100px;
+	height: 150px;
+}
+
+.contact__top-right {}
+
+.contact__social-links__box {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 40px;
+	min-width: 250px;
+}
+
+.contact__social-link {
+	height: 40px;
+	width: 40px;
+
+	border-radius: 20px;
+	background-color: lightgrey;
+}
+
+.contact__social-link:hover {
+	background-color: grey;
+}
+
+.contact__mail-link {
+	height: 40px;
+	width: 60px;
+
+	border-radius: 3px;
+	background-color: lightgrey;
+}
+
+.contact__mail-link:hover {
+	background-color: grey;
+}
+
+
+
+
+
+
