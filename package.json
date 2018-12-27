@@ -1,0 +1,33 @@
+{
+  "name": "indeckscards",
+  "version": "1.0.0",
+  "description": "Spaced Repition Study Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grickl3/indeckscards.git"
+  },
+  "keywords": [
+    "Spaced",
+    "Repitition",
+    "Mnemonic",
+    "Study",
+    "College",
+    "Scholarship",
+    "Academic",
+    "Focus"
+  ],
+  "author": "SQGLZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grickl3/indeckscards/issues"
+  },
+  "homepage": "https://github.com/Grickl3/indeckscards#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-watch": "^5.0.1"
+  }
+}
