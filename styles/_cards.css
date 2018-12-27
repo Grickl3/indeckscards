@@ -1,0 +1,98 @@
+
+
+
+
+.cards__box {
+	display: flex;
+	height: 400px;
+	padding: 50px 0;
+}
+
+	.cards__failed-box {}	}
+
+	.cards__active-box {}
+
+	.cards__success-box {}
+
+/* ================================= CARD SHAPING ==================== */
+
+	.card {
+		background-color: beige;
+		border: 1px solid burlywood;
+	}
+
+	.cards__fail-card {
+		
+		position: absolute;
+		height: 300px;
+
+		border-top-right-radius: 15px;
+		border-bottom-right-radius: 15px;
+	}
+
+	.cards__fail-card__top{
+		width: 40px;
+	}
+
+	.cards__fail-card__middle{
+		margin-top: 20px;
+		width: 60px;
+	}
+
+	.cards__fail-card__bottom{
+		margin-top: 40px;
+		width: 80px;
+	}
+
+	.cards__active-card {
+		position: absolute;
+		height: 300px;
+		width: 600px;
+
+		border-radius: 15px;
+	}
+
+	.cards__active-card__top{
+		left: 50%;
+		transform: translateX(-320px);
+	}
+
+	.cards__active-card__middle{
+		left: 50%;
+		margin-top: 20px;
+		transform: translateX(-300px);
+	}
+
+	.cards__active-card__bottom{
+		left: 50%;
+		margin-top: 40px;
+		transform: translateX(-280px);
+	}
+
+	.cards__success-card {
+		position: absolute;
+		right: 0;
+		height: 300px;
+
+		border-top-left-radius: 15px;
+		border-bottom-left-radius: 15px;
+	}
+
+	.cards__success-card__top{
+		width: 80px;
+	}
+
+	.cards__success-card__middle{
+		width: 60px;
+		margin-top: 20px;
+	}
+
+	.cards__success-card__bottom {
+		width: 40px;
+		margin-top: 40px;
+	}
+
+
+
+
+

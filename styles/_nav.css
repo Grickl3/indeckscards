@@ -1,0 +1,44 @@
+
+
+
+.nav__bar {
+	position: fixed;
+	z-index: 100;
+
+	display: flex;
+	justify-content: space-between;
+
+	padding: 6px;
+	width: 100%;
+	background-color: lightgrey;
+}
+
+.nav__home {
+	margin-top: 3px;
+}
+
+.nav__logo-placeholder {
+	/*display: inline;*/
+	/*margin-left: 60px;*/
+}
+
+.nav__login-box {
+	padding: 3px;	
+	border-radius: 5px;
+	background-color: white;
+}
+
+.nav__login-box:hover {
+	background-color: aliceblue;
+}
+
+.nav__login-log {}
+
+.nav__links {
+	margin-top: 3px;
+}
+
+.nav__link {
+	margin-right: 60px;
+}
+

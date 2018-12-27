@@ -1,20 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>In Decks Cards</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="styles/_brand.css">
+	<link rel="stylesheet" type="text/css" href="styles/_cards.css">
+	<link rel="stylesheet" type="text/css" href="styles/_contact.css">
+	<link rel="stylesheet" type="text/css" href="styles/_content.css">
+	<link rel="stylesheet" type="text/css" href="styles/_nav.css">
+	<link rel="stylesheet" type="text/css" href="styles/_selling.css">
 </head>
 <body>
 	<nav class="nav__bar">
 		<div class="nav__home">
-			<span class="nav__logo-placeholder">LOGO</span>
+			<a href="#"><span class="nav__logo-placeholder">LOGO</span></a>
 		</div><!--NAV HOME BUTTON-->
-		<div class="nav__login-box">
-			<img class="nav__login-log">
+		<div id="mail-chimp-trigger" class="nav__login-box">
+			<span class="nav__stay-tuned">Stay Tuned</span>
 		</div><!-- LOGIN BOX -->
-		<ul class="nav__links">
-			<li class="nav__link">About</li>
-			<li class="nav__link">Contact</li>
+		<div class="nav__links">
+			<a href="#about"><span class="nav__link">About</span></a>
+			<a href="#contact"><span class="nav__link">Contact</span></a>
+		</div><!-- NAV LINKS -->
 	</nav>
+
+	<div class="content__little-space"></div> 
 
 	<div class="content__header-box">
 		<h1 class="content__UVP">One Really Compelling Claim</h1>
@@ -22,25 +33,26 @@
 
 	<div class="cards__box">
 		<div class="cards__failed-box">
-			<div class="cards__fail-card cards__fail-card__top"></div>
-			<div class="cards__fail-card cards__fail-card__middle"></div>
-			<div class="cards__fail-card cards__fail-card__bottom"></div>
+			<div class="card cards__fail-card cards__fail-card__bottom"></div>
+			<div class="card cards__fail-card cards__fail-card__middle"></div>
+			<div class="card cards__fail-card cards__fail-card__top"></div>
 		</div><!-- FAILED BOX -->
 
 		<div class="cards__active-box">
+			<div class="card cards__active-card cards__active-card__bottom"></div>
+			<div class="card cards__active-card cards__active-card__middle"></div>
 
-			<div class="cards__active-card cards__active-card__top">
+			<div class="card cards__active-card cards__active-card__top">
 				
 			</div><!-- ACTIVE CARD TOP -->
 
-			<div class="cards__active-card cards__active-card__middle"></div>
-			<div class="cards__active-card cards__active-card__bottom"></div>
 		</div><!-- ACTIVE BOX -->
 
 		<div class="cards__success-box">
-			<div class="cards__success-card cards__success-card__top"></div>
-			<div class="cards__success-card cards__success-card__middle"></div>
-			<div class="cards__success-card cards__success-card__bottom"></div>
+			<div class="card cards__success-card cards__success-card__bottom"></div>
+			<div class="card cards__success-card cards__success-card__middle"></div>
+			<div class="card cards__success-card cards__success-card__top"></div>
+			
 		</div><!-- SUCCESS BOX -->
 	</div><!-- CARDS BOX -->
 
@@ -74,7 +86,7 @@
 
 	<div id="contact"></div>
 	<div class="contact__box">
-		<div class="contact__card">
+		<div class="card contact__card">
 			<img class="contact__portrait" alt="portrait of Daniel Vogelsang" nopin="nopin">
 			<h3 class="contact__name">Daniel Vogelsang</h3>
 			<div class="contact__skills-box">
@@ -106,7 +118,7 @@
 			</div><!-- BIO -->
 		</div><!-- END DANIEL CONTACT CARD -->
 
-		<div class="contact__card">
+		<div class="card contact__card">
 			<img class="contact__portrait" alt="portrait of Deacon Rodda" nopin="nopin">
 			<h3 class="contact__name">Deacon Rodda</h3>
 			<div class="contact__skills-box">
@@ -136,7 +148,7 @@
 			</div><!-- BIO -->
 		</div><!-- END DEACON CONTACT CARD -->
 
-		<div class="contact__card">
+		<div class="card contact__card">
 			<img class="contact__portrait" alt="portrait of Eric Carlson" nopin="nopin">
 			<h3 class="contact__name">Eric Carlson</h3>
 			<div class="contact__skills-box">
